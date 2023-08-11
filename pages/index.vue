@@ -1,9 +1,9 @@
 <template>
-    <h1 style="color: royalblue;">
+    <h1 class="" style="color: royalblue;">
         home... ===> {{ runtimeConfig.public.secret }}
     </h1>
 
-    <NSwitch/>
+    <NSwitch class="mx-a"/>
 </template>
 
 <script setup>

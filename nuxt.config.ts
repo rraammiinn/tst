@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  modules: [
+    '@unocss/nuxt',
+  ],
+  devtools: { enabled: false },
   runtimeConfig: {
     // The private keys which are only available within server-side
     apiSecret: '',
